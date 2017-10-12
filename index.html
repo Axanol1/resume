@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>周新华作品集</title>
+    <style type="text/css">
+        body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+        dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+        pre, /* text formatting elements 文本格式元素 */
+        fieldset, lengend, button, input, textarea, /* form elements 表单元素 */
+        th, td { /* table elements 表格元素 */
+            margin: 0;
+            padding: 0;
+        }
+        ul, ol { list-style: none; }
+
+        /* 重置文本格式元素 */
+        a { text-decoration: none; }
+        a:hover { text-decoration: none; }
+        body{
+            font-family: 微软雅黑;
+        }
+        .head{
+            height:120px;
+            /*background-color: #ccc;*/
+        }
+        .head .nav{
+            height: 120px;
+            width: 1100px;
+            margin: 0 auto;
+            /*background-color: yellow;*/
+        }
+        .head .nav .logo{
+            height: 120px;
+            width: 450px;
+            /*background-color: gray;*/
+            float: left;
+        }
+        .head .nav .mulu{
+            /*background-color: red;*/
+            float: left;
+        }
+        .head .nav .mulu ul{
+            font-size: 24px;
+        }
+        .head .nav .mulu ul li{
+            float: left;
+            width: 120px;
+            height: 85px;
+            text-align: center;
+            line-height: 120px;
+        }
+        .active{
+            border-bottom: 3px solid;
+            border-bottom-color: #cccccc;
+        }
+        .head .nav .touxiang{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            text-align: center;
+            overflow: hidden;
+            float: left;
+            border: 2px solid;
+            border-color: #cccccc;
+            margin-top: 10px;
+            box-sizing: border-box;
+        }
+        .head .nav .name{
+            float: left;
+            margin-left: 15px;
+            padding-top: 25px;
+        }
+        #zxh{
+            font-size: 30px;
+        }
+        .head .nav .logo .touxiang img{
+            width: 100px;
+        }
+        .content{
+            height: 810px;
+            width: 1150px;
+            margin: 0 auto;
+        }
+        .pi {
+            width: 350px;
+            height: 250px;
+            display: inline-block;
+            border: 1px solid #dedede;
+            margin: 20px 20px 0 0;
+            float: left;
+            text-align: center;
+            line-height: 250px;
+        }
+        .box1 {
+            background: url('./images/1.png') no-repeat;
+            background-size: contain; 
+            opacity: 1;
+        }
+        .content1 {
+            height:100%;
+            width: 100%;
+            opacity: 0;
+            background: rgba(0,0,0,0.1);
+            color: #fff;
+            font-size: 30px;
+        }
+        .content1:hover {
+            opacity: 1;
+        }
+        .box2 {
+            background: url('./images/2.png') no-repeat;
+            background-size: contain; 
+        }
+        .box3 {
+            background: url('./images/3.png') no-repeat;
+            background-size: contain; 
+        }
+        .box4 {
+            background: url('./images/4.png') no-repeat;
+            background-size: contain; 
+        }
+        .box5 {
+            background: url('./images/5.png') no-repeat;
+            background-size: contain; 
+        }
+        .box6 {
+            background: url('./images/6.png') no-repeat;
+            background-size: contain; 
+        }
+        .box7 {
+            background: url('./images/7.png') no-repeat;
+            background-size: contain; 
+        }
+        .box8 {
+            background: url('./images/8.png') no-repeat;
+            background-size: contain; 
+        }
+    </style>
+</head>
+<body>
+<div class="head">
+    <div class="nav">
+        <div class="logo">
+            <div class="touxiang">
+                <img src="images/tx2.png" alt=""/>
+            </div>
+            <div class="name">
+                <p id="zxh">周新华</p>
+                <p>纸上得来终觉浅，绝知此事要躬行。</p>
+            </div>
+        </div>
+        <div class="mulu">
+            <ul>
+                <li class="active"><P><a href="">作品集</a></P></li>
+                <li><p><a href="">简历</a></p></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="content">
+    <div class="pi box1">
+        <div class="content1">UI设计</div>
+    </div>
+    <div class="pi box2"></div>
+    <div class="pi box3"></div>
+    <div class="pi box4"></div>
+    <div class="pi box5"></div>
+    <div class="pi box6"></div>
+    <div class="pi box7"></div>
+    <div class="pi box8"></div>
+</div>
+<div class="footer"></div>
+
+</body>
+</html>
